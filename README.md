@@ -36,9 +36,11 @@ git config --global core.autocrlf true
 ```
 11. Линтирование npx eslint src/sum.js [--fix] [все файлы = .], npm run lint
 12. npm i eslint-plugin-jest -D > поправить eslint.config.mjs
+13. npm i prettier -D > создать .prettierrc
+14. Проверка кода npx prettier src [--write для изменения]
 
 ### горячие клавиши
-Форматирование всего файла: Shift + Alt + F
-Удалить строку (некоторые системы): Shift + Delete (Ctrl + Shift + K)
-Дублировать строку вниз: Shift + Alt + ↓
-Дублировать строку вверх: Shift + Alt + ↑
+- Форматирование всего файла: Shift + Alt + F  
+- Удалить строку (некоторые системы): Shift + Delete (Ctrl + Shift + K)  
+- Дублировать строку вниз: Shift + Alt + ↓  
+- Дублировать строку вверх: Shift + Alt + ↑  
