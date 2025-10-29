@@ -40,6 +40,8 @@ git config --global core.autocrlf true
 14. Проверка кода npx prettier src [--write для изменения]
 15. npm i --save-dev eslint-plugin-prettier eslint-config-prettier > поправить eslint.config.mjs
 16. npm i --save-dev --save-exact prettier
+17. npm i --save-dev husky lint-staged
+18. npx husky init > заменить содержимое файла pre-commit > добавить секцию в package.json > перед коммитом будет запускаться lint-staged
 
 ### горячие клавиши
 - Форматирование всего файла: Shift + Alt + F  
