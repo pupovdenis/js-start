@@ -35,7 +35,7 @@ git config --global core.autocrlf true
 √ Which package manager do you want to use? · npm
 ```
 11. Линтирование npx eslint src/sum.js [--fix] [все файлы = .], npm run lint
-
+12. npm i eslint-plugin-jest -D > поправить eslint.config.mjs
 
 ### горячие клавиши
 Форматирование всего файла: Shift + Alt + F
