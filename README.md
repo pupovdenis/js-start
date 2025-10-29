@@ -7,3 +7,4 @@ git config --global core.eol lf
 # Или для Windows-разработчиков [для Unix true = input]
 git config --global core.autocrlf true
 ```
+2. npm init -y
