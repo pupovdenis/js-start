@@ -34,8 +34,11 @@ git config --global core.autocrlf true
 √ Would you like to install them now? · No / Yes
 √ Which package manager do you want to use? · npm
 ```
-11. Линтирование npx eslint src/sum.js
+11. Линтирование npx eslint src/sum.js [--fix] [все файлы = .], npm run lint
 
 
 ### горячие клавиши
 Форматирование всего файла: Shift + Alt + F
+Удалить строку (некоторые системы): Shift + Delete (Ctrl + Shift + K)
+Дублировать строку вниз: Shift + Alt + ↓
+Дублировать строку вверх: Shift + Alt + ↑
