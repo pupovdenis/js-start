@@ -22,3 +22,20 @@ git config --global core.autocrlf true
 6. npm i jest-environment-jsdom -D
 7. npm i --save-dev babel-jest @babel/core @babel/preset-env > создать babel.config.js
 8. Запуск тестов: npx jest
+9. npm i eslint -D
+10. npx eslint --init
+```
+√ What do you want to lint? · javascript
+√ How would you like to use ESLint? · problems
+√ What type of modules does your project use? · esm
+√ Which framework does your project use? · none
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · browser
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+```
+11. Линтирование npx eslint src/sum.js
+
+
+### горячие клавиши
+Форматирование всего файла: Shift + Alt + F
