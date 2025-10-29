@@ -9,4 +9,4 @@ git config --global core.autocrlf true
 ```
 2. npm init -y
 3. npm i lodash
-
+4. npm i jest @types/jest -D
