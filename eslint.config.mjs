@@ -2,8 +2,10 @@ import js from "@eslint/js";
 import globals from "globals";
 import { defineConfig } from "eslint/config";
 import jest from "eslint-plugin-jest";
+import eslintReccomended from 'eslint-plugin-prettier/recommended';
 
 export default defineConfig([
+  eslintReccomended,
   {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },

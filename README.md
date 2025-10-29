@@ -38,6 +38,8 @@ git config --global core.autocrlf true
 12. npm i eslint-plugin-jest -D > поправить eslint.config.mjs
 13. npm i prettier -D > создать .prettierrc
 14. Проверка кода npx prettier src [--write для изменения]
+15. npm i --save-dev eslint-plugin-prettier eslint-config-prettier > поправить eslint.config.mjs
+16. npm i --save-dev --save-exact prettier
 
 ### горячие клавиши
 - Форматирование всего файла: Shift + Alt + F  
