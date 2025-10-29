@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pupovdenis/js-start/issues"
   },
-  "homepage": "https://github.com/pupovdenis/js-start#readme"
+  "homepage": "https://github.com/pupovdenis/js-start#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
